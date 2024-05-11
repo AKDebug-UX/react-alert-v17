@@ -1,45 +1,46 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+    :root {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+      color-scheme: light dark;
+      color: rgba(0, 0, 0, 0.87);
+      background-color: #ffffff;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+    a {
+      font-weight: 500;
+      color: #646cff;
+      text-decoration: inherit;
+    }
 
-.success {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+    body {
+      margin: 0;
+      display: flex;
+      place-items: center;
+      min-width: 320px;
+      min-height: 100vh;
+    }
 
-.error {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+    .success {
+      margin: 0;
+      display: flex;
+      background-color: green;
+      place-items: center;
+    }
 
+    .error {
+      margin: 0;
+      display: flex;
+      background-color: red;
+      place-items: center;
+    }

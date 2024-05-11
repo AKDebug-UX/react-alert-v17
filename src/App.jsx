@@ -12,10 +12,12 @@ const App = () => {
     <>
       {showAlert && (
         <AlertPopup
-          message="Login Successful 🥳"
+          message={`Login error 🥳Login error 🥳Login error 🥳Login error 🥳Login error`}
           onClose={handleShowAlert}
           autoCloseTimeout={3000}
-          bgColor="success"
+          bgColor="error"
+          bottomPosition="start"
+          topPosition="end"
         />
       )}
 
